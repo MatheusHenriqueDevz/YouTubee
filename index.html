@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-nav.css">
+    <link rel="stylesheet" href="style-iframe.css">
+    <script src="search.js"></script>
+    <title>Exemplo de Iframe</title>
+
+</head>
+
+<body>
+    
+    <nav>
+        <div class="navbar">
+            <div class="logo">YouTube</div>
+            <div class="search-container" >
+                <input type="text" class="search-input" placeholder="Pesquisar">
+                <button class="search-button" onclick="pesquisa()">Buscar</button>
+            </div>
+                <div class="user">
+                    <a href="./usuario.html">
+                        <img class="img-user" src="./scr/user.png" alt="icone de usuário">
+                    </a>
+                    </img>
+                </div>
+        </div>
+    </nav>
+
+    
+        <div class="container">
+            <div class="video-container">
+                    <iframe 
+                    width="560" 
+                    height="315" 
+                    src="https://www.youtube.com/embed/rvq3rUTY2ao" 
+                    frameborder="0" 
+                    allowfullscreen>
+                    </iframe>
+                <div class="comments">
+                    <h3>Comentários</h3>
+                    <input type="text" class="comment-input" placeholder="Deixe seu comentário...">
+                    <button class="submit-button" onclick="comentario()">Enviar</button>
+                    <input type="text" style="color: red;" class="comment-input" placeholder="Matheus Henrique Gonçalo da Silva ; Walisom Lopes Souza">
+                </div>
+            </div>
+    
+            <div class="sidebar">
+               
+                    <h2 class="Videoss">Vídeos</h2> 
+                
+                <ul>
+                    <iframe 
+                    width="960" 
+                    height="615" 
+                    src="https://www.youtube.com/embed/8XPugrS2Tk4" 
+                    frameborder="0" 
+                    allowfullscreen>
+                    </iframe>
+                    <iframe width="360" height="215" src="https://www.youtube.com/embed/Wz37kLniiC4" frameborder="0" allowfullscreen></iframe>
+                    <iframe width="360" height="215" src="https://www.youtube.com/embed/2YFwXUxYUAE" frameborder="0" allowfullscreen></iframe>
+                    <iframe width="360" height="215" src="https://www.youtube.com/embed/M7nApH2Qy4o" frameborder="0" allowfullscreen></iframe>
+                    <iframe width="360" height="215" src="https://www.youtube.com/embed/aCG7YgDXmBQ" frameborder="0" allowfullscreen></iframe>
+                    <iframe width="360" height="215" src="https://www.youtube.com/embed/NkEHlZ62YgE" frameborder="0" allowfullscreen></iframe>
+                </ul>
+            </div>
+        </div>
+        <footer style="text-align: center;"> Direitos autorais </footer>
+    
+
+</body>
+
+</html>
